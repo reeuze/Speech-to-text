@@ -22,7 +22,7 @@ def calculate_similarity(expected_text, recognized_text):
 
 data_similarity = []
 
-for i in range(1, 13):
+for i in range(1, 14):
     # compare path
     wav_file_path = f"E:\Perkuliahan\Semester 4\Pembelajaran Mesin\Tugas Membuat Makalah\Speech-to-text\Data Suara kalimat 1 wav\Data {i} kalimat 1.wav"  # Replace with the path to your WAV file
     expected_text = "London, the capital city of the United Kingdom, is a vibrant metropolis rich in history and culture."
